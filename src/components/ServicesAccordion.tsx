@@ -80,10 +80,10 @@ const ServicesAccordion = () => {
                         <Icon className="w-6 h-6 text-secondary" />
                       </div>
                       <div className="flex-1">
-                        <h3 className="font-serif text-lg sm:text-xl font-bold text-foreground">
+                        <h3 className="font-serif text-lg sm:text-2xl md:text-3xl font-bold text-foreground">
                           {service.title}
                         </h3>
-                        <span className="text-secondary font-semibold text-sm">
+                        <span className="text-secondary font-semibold text-sm sm:text-base md:text-lg">
                           {service.price}
                         </span>
                       </div>
