@@ -8,7 +8,7 @@ const Hero = () => {
           <img
             src={logo}
             alt="CML Property Services"
-            className="mx-auto w-64 sm:w-80 md:w-96 lg:w-[450px] h-auto mb-8 mix-blend-multiply"
+            className="mx-auto w-64 sm:w-80 md:w-96 lg:w-[450px] h-auto mb-8"
           />
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
             Professional Property Services
