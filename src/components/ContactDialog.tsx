@@ -32,7 +32,7 @@ const ContactDialog = ({ open, onOpenChange }: ContactDialogProps) => {
             </div>
           </a>
           <a
-            href="mailto:Kieran.bangs@outlook.com"
+            href="mailto:Enquiries@cmlpropertyservices.co.uk"
             className="flex items-center gap-4 p-4 rounded-xl bg-primary/20 hover:bg-primary/30 transition-colors"
           >
             <div className="p-3 rounded-full bg-primary/50">
@@ -40,7 +40,7 @@ const ContactDialog = ({ open, onOpenChange }: ContactDialogProps) => {
             </div>
             <div>
               <p className="font-semibold text-foreground">Email Us</p>
-              <p className="text-muted-foreground">Kieran.bangs@outlook.com</p>
+              <p className="text-muted-foreground">Enquiries@cmlpropertyservices.co.uk</p>
             </div>
           </a>
         </div>
