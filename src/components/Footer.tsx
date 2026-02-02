@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-secondary text-secondary-foreground">
       <div className="container mx-auto px-4 py-12 md:py-16">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Logo & About */}
           <div className="sm:col-span-2 lg:col-span-1">
             <img src={logo} alt="CML Property Services" className="h-16 w-auto mb-4 brightness-110" />
@@ -67,6 +67,20 @@ const Footer = () => {
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <span>Serving all areas across the UK</span>
               </li>
+            </ul>
+          </div>
+
+          {/* Opening Times */}
+          <div>
+            <h4 className="font-semibold text-lg mb-4">Opening Times</h4>
+            <ul className="space-y-1 text-sm">
+              <li className="flex justify-between opacity-80"><span>Mon</span><span>9:00 - 17:00</span></li>
+              <li className="flex justify-between opacity-80"><span>Tue</span><span>9:00 - 17:00</span></li>
+              <li className="flex justify-between opacity-80"><span>Wed</span><span>9:00 - 17:00</span></li>
+              <li className="flex justify-between opacity-80"><span>Thu</span><span>9:00 - 17:00</span></li>
+              <li className="flex justify-between opacity-80"><span>Fri</span><span>9:00 - 17:00</span></li>
+              <li className="flex justify-between opacity-80"><span>Sat</span><span>Closed</span></li>
+              <li className="flex justify-between opacity-80"><span>Sun</span><span>Closed</span></li>
             </ul>
           </div>
         </div>
