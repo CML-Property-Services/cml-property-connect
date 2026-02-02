@@ -73,7 +73,7 @@ const Footer = () => {
           {/* Opening Times */}
           <div>
             <h4 className="font-semibold text-lg mb-4">Opening Times</h4>
-            <p className="text-sm opacity-80">Available 24 hours,<br />7 days a week</p>
+            <p className="text-sm opacity-80">Available <span className="font-bold">24</span> hours,<br /><span className="font-bold">7</span> days a week</p>
           </div>
         </div>
 
