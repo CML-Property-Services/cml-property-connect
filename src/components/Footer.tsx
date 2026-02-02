@@ -73,14 +73,14 @@ const Footer = () => {
           {/* Opening Times */}
           <div>
             <h4 className="font-semibold text-lg mb-4">Opening Times</h4>
-            <ul className="space-y-1 text-sm">
-              <li className="flex justify-between opacity-80"><span>Mon</span><span>9:00 - 17:00</span></li>
-              <li className="flex justify-between opacity-80"><span>Tue</span><span>9:00 - 17:00</span></li>
-              <li className="flex justify-between opacity-80"><span>Wed</span><span>9:00 - 17:00</span></li>
-              <li className="flex justify-between opacity-80"><span>Thu</span><span>9:00 - 17:00</span></li>
-              <li className="flex justify-between opacity-80"><span>Fri</span><span>9:00 - 17:00</span></li>
-              <li className="flex justify-between opacity-80"><span>Sat</span><span>Closed</span></li>
-              <li className="flex justify-between opacity-80"><span>Sun</span><span>Closed</span></li>
+            <ul className="space-y-2 text-sm">
+              <li className="flex justify-between gap-6 opacity-80"><span>Mon</span><span>9:00 - 17:00</span></li>
+              <li className="flex justify-between gap-6 opacity-80"><span>Tue</span><span>9:00 - 17:00</span></li>
+              <li className="flex justify-between gap-6 opacity-80"><span>Wed</span><span>9:00 - 17:00</span></li>
+              <li className="flex justify-between gap-6 opacity-80"><span>Thu</span><span>9:00 - 17:00</span></li>
+              <li className="flex justify-between gap-6 opacity-80"><span>Fri</span><span>9:00 - 17:00</span></li>
+              <li className="flex justify-between gap-6 opacity-80"><span>Sat</span><span>Closed</span></li>
+              <li className="flex justify-between gap-6 opacity-80"><span>Sun</span><span>Closed</span></li>
             </ul>
           </div>
         </div>
