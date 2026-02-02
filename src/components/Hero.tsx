@@ -21,7 +21,7 @@ const Hero = () => {
             <a href="#services" className="btn-brand text-lg">
               View Our Services
             </a>
-            <a href="tel:+441234567890" className="btn-brand-outline text-lg">
+            <a href="tel:+447521406071" className="btn-brand-outline text-lg">
               Call Us Today
             </a>
           </div>

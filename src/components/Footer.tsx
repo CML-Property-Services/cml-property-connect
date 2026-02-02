@@ -52,15 +52,15 @@ const Footer = () => {
             <h4 className="font-semibold text-lg mb-4">Contact Us</h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="tel:+441234567890" className="flex items-center gap-2 opacity-80 hover:opacity-100 transition-opacity">
+                <a href="tel:+447521406071" className="flex items-center gap-2 opacity-80 hover:opacity-100 transition-opacity">
                   <Phone className="w-4 h-4" />
-                  01234 567 890
+                  07521 406071
                 </a>
               </li>
               <li>
-                <a href="mailto:info@cmlpropertyservices.co.uk" className="flex items-center gap-2 opacity-80 hover:opacity-100 transition-opacity">
+                <a href="mailto:Kieran.bangs@outlook.com" className="flex items-center gap-2 opacity-80 hover:opacity-100 transition-opacity">
                   <Mail className="w-4 h-4" />
-                  info@cmlpropertyservices.co.uk
+                  Kieran.bangs@outlook.com
                 </a>
               </li>
               <li className="flex items-start gap-2 opacity-80">
