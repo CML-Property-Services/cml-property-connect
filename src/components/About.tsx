@@ -4,9 +4,9 @@ import ContactDialog from "@/components/ContactDialog";
 
 const features = [
   "Fully insured and certified tradesmen",
-  "24/7 emergency callout for drainage",
-  "No hidden fees or callout charges",
-  "Serving residential and commercial properties",
+  "24/7 callout for drainage issues – no hidden fees",
+  "No job too small",
+  "Covering Herts, Beds, Bucks and surrounding counties",
 ];
 
 const About = () => {
@@ -26,10 +26,15 @@ const About = () => {
                 and improvement needs. With years of experience across multiple trades, 
                 we deliver exceptional quality and reliability on every project.
               </p>
-              <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
+              <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
                 From small repairs to complete renovations, our skilled team handles 
                 carpentry, plumbing, painting, flooring, mould treatment and general 
-                handyman tasks with professionalism and care.
+                handyman tasks with professionalism and care. There's no job too small.
+              </p>
+              <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
+                We also offer 24/7 callout for drainage issues, such as blocked toilets, 
+                drains, and gullies. No hidden callout fees. Based in Dunstable, Bedfordshire, 
+                we cover Herts, Beds, Bucks, and surrounding counties.
               </p>
               <ul className="space-y-3">
                 {features.map((feature, index) => (
