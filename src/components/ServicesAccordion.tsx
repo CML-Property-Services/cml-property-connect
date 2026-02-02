@@ -6,7 +6,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import ContactDialog from "@/components/ContactDialog";
-import { Hammer, Droplets, Paintbrush, Grid2X2, Bug, Wrench } from "lucide-react";
+import { Hammer, Droplets, Paintbrush, Grid2X2, ShieldCheck, Wrench } from "lucide-react";
 
 const services = [
   {
@@ -35,7 +35,7 @@ const services = [
   },
   {
     id: "mould",
-    icon: Bug,
+    icon: ShieldCheck,
     title: "Mould Treatment",
     description: "Professional mould washes and treatment services. Protect your property and health with our thorough mould remediation solutions. Preventative advice included.",
   },
