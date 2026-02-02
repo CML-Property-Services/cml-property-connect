@@ -27,11 +27,11 @@ const Navbar = () => {
       <div className="bg-secondary text-secondary-foreground py-2 px-4">
         <div className="container mx-auto flex justify-center sm:justify-end">
           <a
-            href="tel:+441onal234567890"
+            href="tel:+447521406071"
             className="flex items-center gap-2 text-sm font-medium hover:opacity-80 transition-opacity"
           >
             <Phone className="w-4 h-4" />
-            <span>Call us: 01onal 234 567 890</span>
+            <span>Call us: 07521 406071</span>
           </a>
         </div>
       </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
               </button>
             ))}
             <a
-              href="tel:+441234567890"
+              href="tel:+447521406071"
               className="btn-brand flex items-center gap-2"
             >
               <Phone className="w-4 h-4" />
@@ -89,7 +89,7 @@ const Navbar = () => {
               </button>
             ))}
             <a
-              href="tel:+441234567890"
+              href="tel:+447521406071"
               className="btn-brand flex items-center justify-center gap-2 w-full mt-4"
             >
               <Phone className="w-4 h-4" />

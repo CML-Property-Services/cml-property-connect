@@ -35,7 +35,7 @@ const About = () => {
               ))}
             </ul>
             <a
-              href="tel:+441234567890"
+              href="tel:+447521406071"
               className="btn-brand inline-flex items-center gap-2 text-lg"
             >
               <Phone className="w-5 h-5" />
@@ -51,11 +51,11 @@ const About = () => {
                 Contact us today for a free, no-obligation quote on your project.
               </p>
               <a
-                href="tel:+441234567890"
+                href="tel:+447521406071"
                 className="btn-brand w-full flex items-center justify-center gap-2 text-lg"
               >
                 <Phone className="w-5 h-5" />
-                01234 567 890
+                07521 406071
               </a>
             </div>
           </div>
