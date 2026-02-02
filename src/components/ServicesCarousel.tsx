@@ -12,42 +12,36 @@ const services = [
     id: 1,
     title: "Carpentry",
     description: "All aspects of carpentry, including kitchens, doors, floors, sheds and more. Our skilled carpenters deliver bespoke solutions tailored to your needs.",
-    price: "From £150",
     image: carpentryImg,
   },
   {
     id: 2,
     title: "Plumbing",
     description: "All aspects of plumbing, excluding gas works. Bathroom installs, tap replacement (indoor and outdoor), unblocking toilets and baths. 24/7 callout on all drainage issues with no callout fee.",
-    price: "From £75",
     image: plumbingImg,
   },
   {
     id: 3,
     title: "Painting & Decorating",
     description: "All aspects of painting and decorating. Transform your space with professional finishes, from feature walls to complete room makeovers.",
-    price: "From £200",
     image: paintingImg,
   },
   {
     id: 4,
     title: "Flooring",
     description: "Expert installation of vinyl, laminate, and herringbone flooring. We ensure precision fitting and beautiful results every time.",
-    price: "From £250",
     image: flooringImg,
   },
   {
     id: 5,
     title: "Mould Treatment",
     description: "Professional mould washes and treatment services. Protect your property and health with our thorough mould remediation solutions.",
-    price: "From £100",
     image: mouldImg,
   },
   {
     id: 6,
     title: "Handyman",
     description: "All minor works covered. From hanging pictures to assembling furniture, no job is too small for our versatile handyman service.",
-    price: "From £50",
     image: handymanImg,
   },
 ];
@@ -132,13 +126,6 @@ const ServicesCarousel = () => {
 
             {/* Content */}
             <div className="p-6 sm:p-8 md:p-12 flex flex-col justify-center md:[direction:ltr]">
-              <span 
-                className={`inline-block bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold mb-4 w-fit transition-all duration-500 ease-out delay-100 ${
-                  isTransitioning ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
-                }`}
-              >
-                {currentService.price}
-              </span>
               <h3 
                 className={`font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 transition-all duration-500 ease-out delay-150 ${
                   isTransitioning ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
