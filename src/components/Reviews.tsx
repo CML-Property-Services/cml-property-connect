@@ -3,30 +3,16 @@ import { Star } from "lucide-react";
 const reviews = [
   {
     id: 1,
-    name: "Sarah M.",
-    location: "Manchester",
-    review: "Excellent carpentry work on our new kitchen. The team was professional, tidy, and the finish is outstanding. Highly recommend!",
+    name: "Rebecca Marshall",
+    location: "Milton Keynes",
+    review: "Had CML Property Services in to replace all the internal doors at my home. Done a fantastic job, highly recommended.",
     rating: 5,
   },
   {
     id: 2,
-    name: "James T.",
-    location: "Stockport",
-    review: "Called for an emergency plumbing issue and they were here within the hour. Fair pricing and great communication throughout.",
-    rating: 5,
-  },
-  {
-    id: 3,
-    name: "Linda K.",
-    location: "Salford",
-    review: "Beautiful flooring installation. They took care of everything and left our home spotless. Will definitely use again.",
-    rating: 5,
-  },
-  {
-    id: 4,
-    name: "David R.",
-    location: "Bolton",
-    review: "Fantastic painting and decorating service. Attention to detail was impressive and the rooms look brand new.",
+    name: "Aaron Gallagher",
+    location: "Dunstable",
+    review: "CML unblocked our drains and got our toilet back up and running. Here within the hour, very good service and friendly, price was very fair.",
     rating: 5,
   },
 ];
